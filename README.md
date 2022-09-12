@@ -1,3 +1,3 @@
 # pi
 # pi
-[![Build Status](http://localhost:8080/job/github-hook/badge/icon)](http://localhost:8080/job/github-hook/)
+[![Build Status](https://8129-186-155-13-112.ngrok.io/job/github-hook/badge/icon)](https://8129-186-155-13-112.ngrok.io/job/github-hook/)
