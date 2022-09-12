@@ -31,19 +31,14 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building..'+
+                sh('chmod +x ./pi.sh')
             }
         }
-        stage('Test') {
+        stage('Run') {
             steps {
                 echo 'Testing..'
-                sh('chmod +x ./pi.sh')
                 sh('./pi.sh')
-            }
-        }
-        stage('Report') {
-            steps {
-                echo 'Reporting....'
             }
         }
     }
