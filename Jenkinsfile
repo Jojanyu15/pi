@@ -38,7 +38,7 @@ pipeline {
         stage('Run') {
             steps {
                 echo 'Testing..'
-                sh('pi.sh')
+                sh('./pi.sh')
             }
         }
     }
