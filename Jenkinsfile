@@ -36,7 +36,8 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'+
+                echo 'Testing..'
+                sh('chmod +x ./pi.sh')
                 sh('./pi.sh')
             }
         }
